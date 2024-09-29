@@ -4,7 +4,8 @@ export default function Home() {
   return (
     <>
         <h2 className="text-red-600 font-bold p-3 text-7xl">Hello World</h2>
-        <Link href="/users">user route</Link>
+        <Link href="/users">User route</Link>
+        <Link href="/photos">Photos route</Link>
     </>
   );
 }
